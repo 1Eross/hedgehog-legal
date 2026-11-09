@@ -10,10 +10,10 @@ import markdown
 
 ROOT = Path(__file__).resolve().parent.parent
 LANGS = ["en", "ru"]
-DOCS = ["privacy-policy", "terms-of-use"]
+DOCS = ["privacy-policy", "terms-of-use", "support"]
 DOC_NAMES = {
-	"en": {"privacy-policy": "Privacy Policy", "terms-of-use": "Terms of Use"},
-	"ru": {"privacy-policy": "Политика конфиденциальности", "terms-of-use": "Условия использования"},
+	"en": {"privacy-policy": "Privacy Policy", "terms-of-use": "Terms of Use", "support": "Support"},
+	"ru": {"privacy-policy": "Политика конфиденциальности", "terms-of-use": "Условия использования", "support": "Поддержка"},
 }
 SITE_NAME = "Hedgehog"
 

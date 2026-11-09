@@ -78,3 +78,5 @@ a { color: var(--link); }
 	.doc h1 { font-size: 24px; }
 	.topbar { padding: 12px 16px 0; }
 }
+
+.doc .contact { font-size: 22px; font-weight: 500; margin: 20px 0; }
